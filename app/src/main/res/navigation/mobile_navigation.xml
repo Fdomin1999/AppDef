@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/inicioFragment">
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.appdef.inicioFragment"
+        android:label="fragment_inicio2"
+        tools:layout="@layout/fragment_inicio2" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.appdef.loginFragment"
+        android:label="fragment_login2"
+        tools:layout="@layout/fragment_login2" />
+</navigation>
